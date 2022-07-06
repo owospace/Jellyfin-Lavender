@@ -11,7 +11,7 @@
     <a href="https://github.com/owospace/Jellyfin-Lavender#getting-started"><strong>Installation »</strong></a>
     <br>
     <br>
-    <a href="">View Demo</a>
+    <a href="https://github.com/owospace/Jellyfin-Lavender/tree/master/src/assets/gallery">View Gallery</a>
     ・
     <a href="https://github.com/owospace/Jellyfin-Lavender/issues/new">Report Bug</a>
     ・
