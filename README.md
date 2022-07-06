@@ -3,19 +3,19 @@
 
 <div align="center">
 
-  <img src="">
+  <img src="https://raw.githubusercontent.com/owospace/Jellyfin-Lavender/master/src/assets/lavender-logo.png" style="max-width:256px;max-height:256px;">
   <h1 align="center">'Lavender' for Jellyfin.</h1>
 
   <p align="center">
     A Lavender-inspired theme for the Jellyfin Media Server.<br>
-    <a href=""><strong>Installation »</strong></a>
+    <a href="https://github.com/owospace/Jellyfin-Lavender#getting-started"><strong>Installation »</strong></a>
     <br>
     <br>
     <a href="">View Demo</a>
     .
-    <a href="">Report Bug</a>
+    <a href="https://github.com/owospace/Jellyfin-Lavender/issues/new">Report Bug</a>
     .
-    <a href="">Request Feature</a>
+    <a href="https://github.com/owospace/Jellyfin-Lavender/issues/new">Request Feature</a>
   </p>
 
 </div><br><br>
@@ -72,15 +72,15 @@
 
   - [ ] No roadmap provided. (yet?)
 
-  <p>Please see the <a href="">open issues</a> for a list of proposed features (as well as known issues).</p>
+  <p>Please see the <a href="https://github.com/owospace/Jellyfin-Lavender/issues">open issues</a> for a list of proposed features (as well as known issues).</p>
 
 </div><br><br>
 
 <div>
 
   <h2>Contributing</h2>
-  
-  <p>If you want to make a contribution, please fork the repository & create a pull request. If you have a suggestion you would want to see, you can <a href="https://github.com/owospace/Jellyfin-Lavender/issues">open a new issue</a> with your request.</p>
+
+  <p>If you want to make a contribution, please fork the repository & create a pull request. If you have a suggestion you would want to see, you can <a href="https://github.com/owospace/Jellyfin-Lavender/issues/new">open a new issue</a> with your request.</p>
 
   1. Fork the project<br>
   2. Create your Feature Branch (`git checkout -b feature/YourFeature`)<br>
