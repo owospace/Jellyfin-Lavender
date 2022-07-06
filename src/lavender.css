@@ -246,7 +246,7 @@ html {
 
 /* Page Title Logo */
 .pageTitleWithDefaultLogo {
-    background-image: url('https://i.ibb.co/yfMGHVV/201774202017-09-254742835lavvender-414753630-removebg-preview.png');
+    background-image: url('https://raw.githubusercontent.com/owospace/Jellyfin-Lavender/master/src/assets/lavender-logo.png');
     min-width: 80px;
     min-height: 80px;
 }
