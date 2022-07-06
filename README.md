@@ -3,7 +3,7 @@
 
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/owospace/Jellyfin-Lavender/master/src/assets/lavender-logo.png" style="max-width:256px;max-height:256px;">
+  <img src="https://raw.githubusercontent.com/owospace/Jellyfin-Lavender/master/src/assets/lavender-logo.png" width="220" height="148">
   <h1 align="center">'Lavender' for Jellyfin.</h1>
 
   <p align="center">
