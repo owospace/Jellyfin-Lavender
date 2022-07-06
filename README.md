@@ -53,11 +53,11 @@
 
   1. Sign into an administrator-enabled account on your Jellyfin instance.<br>
 
-  2. From the home page, click on the Profile Icon up in the top right corner.
+  2. From the home page, click on the [Profile Icon](https://raw.githubusercontent.com/owospace/Jellyfin-Lavender/master/src/assets/help/1.png) up in the top right corner.
 
-  3. Go to the 'Dashboard' = then to > 'General'<br>
+  3. Go to the ['Dashboard'](https://raw.githubusercontent.com/owospace/Jellyfin-Lavender/master/src/assets/help/2.png) = then to > ['General'](https://raw.githubusercontent.com/owospace/Jellyfin-Lavender/master/src/assets/help/3.png)<br>
 
-  4. Paste the following into the 'Custom CSS code':<br>
+  4. Paste the following into the ['Custom CSS code'](https://raw.githubusercontent.com/owospace/Jellyfin-Lavender/master/src/assets/help/4.png):<br>
   ```css
   @import url(“https://spce.moe/lavender/public/lavender.theme.css”);
   ```
