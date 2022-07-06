@@ -12,9 +12,9 @@
     <br>
     <br>
     <a href="">View Demo</a>
-    .
+    ・
     <a href="https://github.com/owospace/Jellyfin-Lavender/issues/new">Report Bug</a>
-    .
+    ・
     <a href="https://github.com/owospace/Jellyfin-Lavender/issues/new">Request Feature</a>
   </p>
 
