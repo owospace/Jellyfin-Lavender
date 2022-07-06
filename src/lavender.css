@@ -1,0 +1,313 @@
+/*
+ * Lavender Theme for Jellyfin Media Server.
+ * A nicely-designed theme for those weary fucking eyes.
+ * - - - - -
+ * Author : space // biz@spce.moe
+ * Author URL : https://spce.moe/
+ * License : MIT
+*/
+
+html {
+    font-size: 85% !important;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #ada9f5 #101014;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); body, h1, h2, h3, h4 {
+    font-family: 'Quicksand', sans-serif;
+    color: #b9bbbe;
+}
+
+/* Header Title on Sections */
+.sectionTitle {
+    color: #ada9f5;
+}
+.visualLoginForm h1 {
+    color: #ada9f5;
+}
+
+/* Make the top 'taskbar' transparent */
+.skinHeader {
+    background: none !important;
+    background-color: rgba(0,0,0,0) !important;
+}
+
+/* Edit padding on main buttons */
+.emby-tab-button {
+    padding: 1.75em 1.7em;
+}
+
+/* Hide the 'Forgot Password' button. */
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+    display: none;
+}
+
+/* Narrow the login dialogue, sizes according to display size (bigger on mobile) */
+#loginPage .readOnlyContent,
+#loginPage form {
+    max-width: 22em;
+}
+
+/* Input Selection/Highlight Box (Sign-In) */
+.inputLabelFocused, .selectLabelFocused, .textareaLabelFocused {
+    color: #ada9f5;
+}
+.emby-input:focus, .emby-testarea:focus {
+    border-color: #ada9f5;
+}
+
+/* Primary Button (Sign-In) */
+.button-submit {
+    background: #ada9f5 !important;
+    color: #fff !important;
+}
+.button-submit:hover {
+    background: #7c75f2 !important;
+}
+.button-submit:focus {
+    background: #7c75f2 !important;
+    color: #fff !important;
+}
+.button-submit:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px #7c75f2;
+  }
+.button-submit:active:after {
+    box-shadow: 0 0 0 0 #ada9f5;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+  }
+.emby-button {
+    border-radius: 10em !important;
+    border-color: rgba(0,0,0,0) !important;
+}
+
+/* User/Password input box customization */
+.emby-input {
+    color: #b9bbbe !important;
+    background: #18171c;
+    border: 0.16em solid #18171c;
+    border-radius: 0.8em;
+}
+
+/* Checkbox Styling */
+.checkboxIcon {
+    color: #fff;
+}
+.checkboxIcon-checked {
+   background: #ada9f5;
+}
+.checkboxOutline {
+    color: #ada9f5;
+    border-color: #ada9f5 !important;
+}
+.emby-checkbox:checked + span + .checkboxOutline,
+.itemProgressBarForeground {
+    background-color: #ada9f5;
+    animation: pop 0.5s ease;
+    z-index: 100;
+}
+.checkboxOutline {
+    border-radius: 0.40em !important;
+}
+@keyframes pop {
+    0% { transform: scale(0);opacity:0; }
+    75% {opacity:1; }
+    100% { transform: scale(1.2); }
+}
+
+/* Main Login Page Background */
+#loginPage {
+    background-color: #101014;
+}
+
+/* Button Customisation */
+.fab, .raised {
+    background: #18171c;
+    color: #b9bbbe;
+}
+
+/* Error/Toast Prompt */
+.toast {
+    background-color: #ada9f5;
+    color: #fff;
+}
+
+/* Change Default Card Avatar for all users */
+.cardImageIcon {
+    color: #fff;
+}
+
+/* Mess around with the card design for user login screen. */
+.cardImageContainer {
+    border-radius: 2.2em !important;
+}
+.cardImage {
+    border-radius: 2.2em !important;
+}
+.cardBox:not(.visualCardBox), .cardPadder {
+    background-color: rgba(0,0,0,0) !important;
+    /*margin: 10px;*/
+}
+
+/* Change Default Card Background for all users */
+.defaultCardBackground1 {
+    background-color: #eca9f5;
+}
+.defaultCardBackground2 {
+    background-color: #7e77fd;
+}
+.defaultCardBackground3 {
+    background-color: #a9c3f5;
+}
+.defaultCardBackground4 {
+    background-color: #ada9f5;
+}
+.defaultCardBackground5 {
+    background-color: #f5a9a9;
+}
+
+
+/* Main UI Menu Design */
+
+/* Header */
+.skinHeader {
+    color: #ada9f5;
+}
+
+.pageTitle {
+    color: #ada9f5;
+}
+
+/* Sidebar header */
+.libraryMenuOptions h3 {
+    color: #ada9f5;
+}
+.adminMenuOptions h3 {
+    color: #ada9f5;
+}
+.userMenuOptions h3 {
+    color: #ada9f5;
+}
+
+/* Header Button highlights */
+.headerButton:hover {
+    background-color: #ada9f5;
+    color: #ada9f5;
+}
+
+/* Button-Links */
+.button-link {
+    color: #b9bbbe;
+}
+.button-link:hover {
+    color: #ada9f5;
+}
+
+/* Play Button Hover */
+.play_arrow {
+    color: #ada9f5 !important;
+}
+.play_arrow:hover {
+    color: #ada9f5 !important;
+}
+.paper-icon-button-light:hover:not(:disabled) {
+    background: rgba(173, 169, 245, 0.5);
+    color: #ada9f5;
+}
+
+
+/* Action menu (right click menu) */
+.actionSheet {
+    border-radius: 1.5em !important;
+}
+
+/* Card Text Customization */
+.cardText {
+    color: #fff;
+    text-shadow: 1, 1, rgba(0,0,0, 0.8);
+}
+
+/* Page Title Logo */
+.pageTitleWithDefaultLogo {
+    background-image: url('https://i.ibb.co/yfMGHVV/201774202017-09-254742835lavvender-414753630-removebg-preview.png');
+    min-width: 80px;
+    min-height: 80px;
+}
+
+/* Fixing the Card Playing Inner Content view (in the admin/dashboard menu) */
+.sessionNowPlayingInnerContent {
+    color: #fff;
+    background-color: #ada9f5;
+}
+.navMenuOption-selected {
+    background: #ada9f5 !important;
+}
+.drawerContent h3 {
+    color: #ada9f5;
+}
+.emby-select-withcolor {
+    background: #18171c;
+    border: 0.16em solid #18171c;
+    border-radius: 0.8em;
+}
+.emby-select-withcolor:focus {
+    border-color: #ada9f5 !important;
+}
+.emby-textarea {
+    background-color: #18171c;
+}
+.paperList {
+    background-color: #18171c;
+    border-radius: 0.8em;
+}
+fieldset {
+    border-color: #ada9f5;
+}
+
+/* Index Page Customization 
+#indexPage {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F52%2F7b%2Fde%2F527bdecddfb89c8531cd27c2b3591f08.jpg&f=1&nofb=1');
+    background-repeat: repeat;
+    background-position: fill;
+    background-position-y: 60%;
+    background-position-x: 40%;
+}*/
+
+/* SUPER COOL SPLASH LOGO? */
+.splashLogo {
+    -webkit-animation:fadein .5s;
+    animation:fadein .5s;
+    width:30%;
+    height:30%;
+    background-image:url(assets/img/icon-transparent.png);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:contain;
+    position:fixed;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%)
+   }
+   @media screen and (min-device-width:992px) {
+    .splashLogo {
+     background-image:url(assets/img/banner-light.png)
+    }
+   }
